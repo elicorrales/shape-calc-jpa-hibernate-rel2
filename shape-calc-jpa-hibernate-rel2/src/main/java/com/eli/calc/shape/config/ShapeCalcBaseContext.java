@@ -9,16 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.PropertySource;
-import org.springframework.core.annotation.Order;
 import org.springframework.core.env.Environment;
-
-import com.eli.calc.shape.service.CalculatedResults;
-import com.eli.calc.shape.service.PendingRequests;
-import com.eli.calc.shape.service.impl.CalculatedResultsImpl;
-import com.eli.calc.shape.service.impl.PendingRequestsImpl;
-import com.eli.calc.shape.service.impl.ShapeCalculatorServiceImpl;
 
 @Configuration
 @ComponentScan(basePackages="com.eli.calc.shape")
